@@ -233,6 +233,21 @@ h2 {
 .whatsapp img {
     width: 50px;
     height: 50px;
+    filter: drop-shadow(1px 1px 10px rgba(80, 255, 89, 0.8)) drop-shadow(-1px -1px 10px rgba(80, 255, 89, 0.8));
+    animation: glow 0.7s infinite ease alternate;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+@keyframes glow {
+    0% {
+        filter: drop-shadow(1px 1px 5px rgba(80, 255, 89, 0.8)) drop-shadow(-1px -1px 5px rgba(80, 255, 89, 0.8));
+    }
+
+    100% {
+        filter: drop-shadow(5px 5px 5px rgba(80, 255, 89, 0.8)) drop-shadow(-5px -5px 5px rgba(80, 255, 89, 0.8));
+    }
 }
 
 @media (max-width: 480px) {
