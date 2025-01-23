@@ -19,14 +19,17 @@ header {
     position: sticky;
     top: 0vh;
     z-index: 1;
+    padding-bottom: 60px;
 }
 
 h1 {
-    padding-bottom: 60px;
     font-family: "Playwrite In", serif;
     font-size: 50px;
     color: transparent;
     -webkit-text-stroke: 1px #ffffff;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.37);
+    text-align: center;
 }
 
 .splash {
@@ -41,6 +44,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
 }
 
 
@@ -53,7 +57,7 @@ h1 {
     font-family: "Outfit", serif;
     padding: 50px;
     color: white;
-    text-shadow: 2px 2px 4px rgb(11, 85, 155);
+    text-shadow: 2px 2px 2px black;
 }
 
 
@@ -94,6 +98,10 @@ h2 {
     width: 40px;
 }
 
+.titulo {
+    padding: 10px;
+}
+
 .ubicacion {
     font-family: "Outfit", serif;
     color: white;
@@ -102,14 +110,17 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
     margin-bottom: 50px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .lugar {
     font-size: 20px;
+    padding: 8px;
 }
 
-a {
+.mapa {
     font-size: 20px;
     color: white;
     text-decoration: none;
@@ -127,4 +138,95 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.regalo {
+    font-family: "Outfit", serif;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.open {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 2em;
+    background-color: #44a786;
+}
+
+.modal {
+    width: 100%;
+    position: fixed;
+    inset: 0;
+    background: #0000005d;
+    display: flex;
+    transition: transform .5s;
+    transform: translate(100%);
+}
+
+.modal:target {
+    transform: translate(0);
+}
+
+.modal_container {
+    font-family: "Outfit", serif;
+    font-size: 30px;
+    position: relative;
+    width: 80%;
+    height: 30%;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.modal_close {
+    position: absolute;
+    background-color: crimson;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.asistencia {
+    font-family: "Outfit", serif;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.whatsapp img {
+    width: 50px;
+    height: 50px;
 }

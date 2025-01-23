@@ -30,3 +30,4 @@ const countdown = setInterval(() => {
         document.getElementById('timer').innerHTML = '<h2>¡La cuenta regresiva ha terminado!</h2>';
     }
 }, 1000);
+
