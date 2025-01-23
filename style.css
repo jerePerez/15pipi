@@ -184,13 +184,17 @@ h2 {
     font-size: 30px;
     position: relative;
     width: 80%;
-    height: 30%;
+    height: 45%;
     background-color: #fff;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.modal_container img {
+    width: 180px;
 }
 
 .modal_title {
@@ -229,4 +233,10 @@ h2 {
 .whatsapp img {
     width: 50px;
     height: 50px;
+}
+
+@media (max-width: 480px) {
+    .mpDatos {
+        font-size: 20px;
+    }
 }
