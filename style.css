@@ -157,10 +157,15 @@ h2 {
     text-shadow: 2px 2px 2px black;
 }
 
+.regalo img {
+    width: 70px;
+}
+
 .open {
+    font-size: 20px;
     color: #fff;
     text-decoration: none;
-    padding: 15px 50px;
+    padding: 10px 50px;
     border-radius: 2em;
     background-color: #44a786;
 }
