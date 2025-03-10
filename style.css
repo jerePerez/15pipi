@@ -115,6 +115,30 @@ h2 {
     text-shadow: 2px 2px 2px black;
 }
 
+@keyframes blinkBackground {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.blinking {
+    animation: blinkBackground 1s infinite;
+    padding: 10px;
+    /* Para que el fondo se vea mejor */
+    display: inline-block;
+    /* Evita que se expanda en todo el ancho */
+    border-radius: 25px;
+}
+
+
 .lugar {
     font-size: 20px;
     padding: 8px;
